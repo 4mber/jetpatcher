@@ -15,7 +15,7 @@
 .counter {
     text-align: center;
 }
-.counter--value {
+.counter--value, .counter--value2 {
     font-size: 3rem;
     color: inherit;
     margin: 0;

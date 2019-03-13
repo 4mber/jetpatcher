@@ -13,7 +13,7 @@ $(window).scroll(function() {
         },
 
         {
-          duration: 1500,
+          duration: 1700,
           easing: 'swing',
           step: function() {
             $this.text(Math.floor(this.countNum));
@@ -25,6 +25,37 @@ $(window).scroll(function() {
         });
     });
     a = 1;
+  }
+
+});
+
+var b = 0;
+$(window).scroll(function() {
+
+  var oTop = $('#counter2').offset().top - window.innerHeight;
+  if (b == 0 && $(window).scrollTop() > oTop) {
+    $('.counter--value2').each(function() {
+      var $this = $(this),
+        countTo = $this.attr('data-count2');
+      $({
+        countNum: $this.text()
+      }).animate({
+          countNum: countTo
+        },
+
+        {
+          duration: 1700,
+          easing: 'swing',
+          step: function() {
+            $this.text(Math.floor(this.countNum));
+          },
+          complete: function() {
+            $this.text(this.countNum);
+          }
+
+        });
+    });
+    b = 1;
   }
 
 });
