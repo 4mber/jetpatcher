@@ -139,6 +139,14 @@ img::-moz-selection {
   color: #fed136;
 }
 
+a.nav-item-foot {
+  color: #A0A0A0 !important;
+}
+a.nav-item-foot:hover {
+  color: #fed136 !important;
+  text-decoration: none;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 25px;
@@ -642,15 +650,40 @@ section#contact :-ms-input-placeholder {
 }
 
 footer {
-  padding: 25px 0;
+  padding: 25px 100px;
   text-align: center;
 }
 
 footer span.copyright {
-  font-size: 90%;
-  line-height: 40px;
+  font-size: 85%;
+  line-height: 55px;
   text-transform: none;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+span.pre-footer, p.pre-footer {
+  text-transform: none;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; 
+}
+
+p.pre-footer {
+      color: #A0A0A0 !important;
+}
+
+ul.pre-footer {
+  list-style: none;
+  padding: 0;
+}
+
+#pre-footer {
+  background-color: #3a3a3a;
+  color: #fff;
+  font-size: 85%;
+  padding: 75px 0;
+}
+
+.contact-text {
+  color: #fff;
 }
 
 footer ul.quicklinks {
@@ -677,7 +710,7 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: #767676d1;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
