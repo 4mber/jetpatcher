@@ -8,6 +8,16 @@
     font-weight: 500;
     padding-bottom: 50px;
 }
+#about-mast {
+    height: 30rem;
+    padding-top: 15rem;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/stock-truck.jpg");
+}
+.about-img {
+    width: 100%;
+}
 
 /* Counter Styles */
 /* -=-=-=-=-=-=-=-=-=-=-=- */
@@ -23,11 +33,12 @@
 }
 .side-by {
 	display: inline-block;
-	padding-top: 50px;
+	padding: 50px 15px;
+  vertical-align: top;
 }
 .plus {
 	vertical-align: super;
-    font-size: xx-large;
+  font-size: xx-large;
 }
 
 
