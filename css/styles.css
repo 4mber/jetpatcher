@@ -75,7 +75,10 @@ ol.simple-list > li:before {
 #uk {
   padding-bottom: 85px;
 }
-#process-content {
+#export {
+  padding-bottom: 0;
+}
+#process-content, #export-content {
   padding-top: 50px;
   padding-bottom: 70px;
 }
