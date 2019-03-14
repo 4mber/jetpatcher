@@ -19,12 +19,10 @@
     width: 100%;
 }
 .testimonial {
-  background-color: #ececec;
+  background-color: #f8f9fa;
   padding: 30px;
   height: 230px;
 }
-
-
 
 /* Process Styles */
 /* -=-=-=-=-=-=-=-=-=-=-=- */
@@ -72,11 +70,16 @@ ol.simple-list > li:before {
     height: 300px;
 }
 #process {
-  padding-bottom: 0;
+  padding-bottom: 40px;
 }
 #process-content {
   padding-top: 50px;
+  padding-bottom: 70px;
 }
+#vid-description {
+  padding-left: 12px;
+}
+
 
 /* Counter Styles */
 /* -=-=-=-=-=-=-=-=-=-=-=- */
