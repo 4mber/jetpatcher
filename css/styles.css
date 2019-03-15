@@ -147,13 +147,14 @@ ol.simple-list > li:before {
   height: 42rem;
   background-color: #777;
 }
-.carousel-item > img {
+.carousel-item > img, .carousel-item > video {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
   height: 42rem;
   filter: brightness(70%);
+  object-fit: cover;
 }
 
 
