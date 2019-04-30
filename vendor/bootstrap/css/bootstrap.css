@@ -583,8 +583,8 @@ pre code {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  padding-right: 15px;
   padding-left: 15px;
+  padding-right: 15px;
 }
 
 .col {
@@ -593,6 +593,11 @@ pre code {
   -ms-flex-positive: 1;
   flex-grow: 1;
   max-width: 100%;
+}
+
+.un-dot {
+  list-style: none;
+  padding-left: 0;
 }
 
 .col-auto {
@@ -621,9 +626,9 @@ pre code {
 }
 
 .col-4 {
-  -ms-flex: 0 0 33.333333%;
-  flex: 0 0 33.333333%;
-  max-width: 33.333333%;
+  -ms-flex: 0 0 33%;
+  flex: 0 0 33%;
+  max-width: 33%;
 }
 
 .col-5 {
@@ -1013,6 +1018,11 @@ pre code {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
+  }
+  .col-md-6-5 {
+    -ms-flex: 0 0 56%;
+    flex: 0 0 56%;
+    max-width: 56%;
   }
   .col-md-7 {
     -ms-flex: 0 0 58.333333%;
@@ -9599,6 +9609,8 @@ button.bg-dark:focus {
   text-align: center !important;
 }
 
+
+
 @media (min-width: 576px) {
   .text-sm-left {
     text-align: left !important;
@@ -9610,6 +9622,17 @@ button.bg-dark:focus {
     text-align: center !important;
   }
 }
+
+@media (max-width: 768px) {
+  .box {
+    padding: 0;
+    width: 32%;
+  }
+  .caption {
+    font-size: smaller;
+  }
+}
+
 
 @media (min-width: 768px) {
   .text-md-left {
@@ -9789,6 +9812,23 @@ a.text-dark:hover, a.text-dark:focus {
 
 .invisible {
   visibility: hidden !important;
+}
+
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.box .text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 80%; /* Adjust this value to move the positioned div up and down */
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    width: 75%;  Set the width of the positioned div 
 }
 
 @media print {

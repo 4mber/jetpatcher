@@ -230,3 +230,9 @@ ol.simple-list > li:before {
     margin-top: 7rem;
   }
 }
+
+@media (max-width: 576px) {
+  .contain-pad {
+    padding: 0;
+  }
+}
