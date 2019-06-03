@@ -19,9 +19,16 @@
     width: 100%;
 }
 .testimonial {
-  background-color: #f8f9fa;
+  background-color: #ececec;
   padding: 30px;
-  height: 230px;
+  text-align: left;
+}
+.bigger {
+  font-size: 125%;
+}
+.send-btn {
+  padding: 10px 15px 8px 15px;
+  text-transform: uppercase;
 }
 
 /* Process Styles */
