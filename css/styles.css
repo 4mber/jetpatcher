@@ -30,6 +30,34 @@
   padding: 10px 15px 8px 15px;
   text-transform: uppercase;
 }
+iframe {
+    width: 750px;
+    height: 440px;
+}
+#main-1000 {
+  width: 48%;
+}
+#table-1000 {
+  width: 33%;
+  float: right;
+}
+#main-2500 {
+  width: 48%;
+}
+#table-2500 {
+  width: 36%;
+  float: right;
+}
+#other-2500, #other2-2500 {
+  width: 48%;
+}
+#spreader, #spread-vid {
+  width: 60%;
+}
+.faq-img {
+  width: 350px;
+}
+
 
 /* Process Styles */
 /* -=-=-=-=-=-=-=-=-=-=-=- */
@@ -73,7 +101,7 @@ ol.simple-list > li:before {
     flex: 0 0 21%;
     max-width: 21%;
     padding-left: 20px;
-    padding-bottom: 70px;
+    padding-bottom: 150px;
     height: 300px;
 }
 #process {
@@ -241,5 +269,104 @@ ol.simple-list > li:before {
 @media (max-width: 576px) {
   .contain-pad {
     padding: 0;
+  }
+  iframe {
+      width: 480px;
+      height: 440px;
+  }
+}
+
+@media (max-width: 755px) {
+  iframe[Attributes Style] {
+      width: 500px;
+      height: 440px;
+  }
+}
+
+@media (max-width: 480px) {
+  iframe {
+      width: 450px;
+      height: 440px;
+  }
+  footer {
+    padding: 5px;
+  }
+  ul.social-buttons {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    float: none;
+  }
+  footer span.copyright {
+    line-height: 25px;
+  }
+  footer {
+    padding-top: 25px;
+  }
+  .process-img {
+    max-width: 90%;
+  }
+  #uk-img {
+    width: 100%;
+  }
+  #main-1000, #table-1000, #main-2500, #table-2500, #other-2500, #other2-2500, #spreader, #spread-vid {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .box.col-4 {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .faq-img {
+    width: 100%;
+  }
+  #questions {
+    text-align: center;
+  }
+  .faq-list {
+    margin-bottom: 35px;
+  }
+  .cert {
+    margin-bottom: 80px;
+  }
+  .process-img {
+    padding-bottom: 50px;
+  }
+  .portfolio-modal .modal-content h2 {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 450px) {
+  iframe {
+      width: 400px;
+      height: 440px;
+  }
+  h1, .h1 {
+    font-size: 2.5rem;
+  }
+  section h2.section-heading {
+    font-size: 32px;
+  }
+}
+@media (max-width: 400px) {
+  iframe {
+      width: 380px;
+      height: 440px;
+  }
+}
+@media (max-width: 380px) {
+  iframe {
+      width: 320px;
+      height: 440px;
+  }
+  #nav-logo {
+        width: 180px;
+  }
+}
+@media (max-width: 320px) {
+  iframe {
+      width: 300px;
+      height: 440px;
   }
 }
