@@ -34,6 +34,9 @@ iframe {
     width: 100%;
     height: 440px;
 }
+.cert {
+  width: 50%;
+}
 #main-1000 {
   width: 48%;
 }
