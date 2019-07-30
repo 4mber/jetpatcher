@@ -37,6 +37,9 @@ iframe {
 .cert {
   width: 50%;
 }
+.cert-link {
+  color: #000;
+}
 #main-1000 {
   width: 48%;
 }
