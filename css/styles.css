@@ -222,8 +222,8 @@ ol.simple-list > li:before {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 20.75rem;
-  z-index: 10;
+  position: sticky;
+  padding: 170px 100px 0 100px;
 }
 
 /* Declare heights because of positioning of img element */
