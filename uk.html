@@ -44,27 +44,56 @@
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+          <li class="dropdown nav-item active">
+            <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">About
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu bg-dark">
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="process.html">Process</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="uk.html">UK</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="export.html">Export</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="range.html">Product Range</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="csca.html">Case Studies, Certifications, & Awards</a>
+              </li>
+            </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="process.html">Process</a>
+            <a class="nav-link" href="javascript: document.body.scrollIntoView(false);">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="uk.html">UK</a>
+            <a class="nav-link" href="news.html">News</a>
           </li>
+          <div id="translator">
+              <div id="google_translate_element" class="mt-2 mt-md-0"></div>
+              <script type="text/javascript">
+                  function googleTranslateElementInit() {
+                      new google.translate.TranslateElement({
+                          pageLanguage: 'en',
+                          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                      }, 'google_translate_element');
+                  }
+              </script>
+              <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+          </div>
           <li class="nav-item">
-            <a class="nav-link" href="export.html">Export</a>
+            <a class="nav-link phone" href="tel:+448442571570">+44 (0) 8442 571 570</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="range.html">Product Range</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="faq.html">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="csca.html">Case Studies, Certifications, & Awards</a>
-          </li>
+
+
         </ul>
       </div>
     </div>
@@ -231,6 +260,25 @@
               <li>
                 <a class="nav-item-foot" href="csca.html">Case Studies, Certifications, & Awards</a>
               </li>
+              <li>
+                <a class="nav-item-foot" href="news.html">News</a>
+              </li>
+              <h6 class="service-heading"><br>Search</h6>
+              <!-- Search form -->
+              <div id="search-contain">
+                <script>
+                  (function() {
+                    var cx = '009178337144587862407:myfbaaehpgo';
+                    var gcse = document.createElement('script');
+                    gcse.type = 'text/javascript';
+                    gcse.async = true;
+                    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(gcse, s);
+                  })();
+                </script>
+                <gcse:search></gcse:search>
+              </div>
             </ul>
           </span>
         </div>
@@ -250,7 +298,7 @@
           </p>
         </div>
         <div class="col-md-3">
-          <h6 class="service-heading">Contact</h6>
+          <h6 class="service-heading">Find Us</h6>
           <p class="text-muted pre-footer contact-text">Jetpatcher™<br>
           Parkfield Road Industrial Estate<br>
           Parkfield Road<br>
@@ -264,22 +312,14 @@
           Info@jetpatcher.com</p>
         </div>
         <div class="col-md-3">
-          <h6 class="service-heading">Search</h6>
-          <!-- Search form -->
-          <div id="search-contain">
-            <script>
-              (function() {
-                var cx = '009178337144587862407:myfbaaehpgo';
-                var gcse = document.createElement('script');
-                gcse.type = 'text/javascript';
-                gcse.async = true;
-                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(gcse, s);
-              })();
-            </script>
-            <gcse:search></gcse:search>
-          </div>
+            <form id="footer-contact" action="https://formspree.io/email@email.com" method="POST">
+                <h6 class="service-heading">Contact Us</h6>
+                <input class="footer-input" type="text" name="name" placeholder="Name">
+                <input class="footer-input" type="email" name="_replyto" placeholder="Email">
+                <textarea class="footer-input" type="message" name="message" placeholder="Message"></textarea>
+                <br>
+                <input type="submit" value="Send" id="contact-btn">
+            </form>
         </div>
       </div>
     </div>
@@ -315,6 +355,8 @@
     </div>
   </footer>
 
+  
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -330,6 +372,7 @@
   <script src="js/agency.min.js"></script>
   <script src="js/script.js"></script>
 
+  <link href="css/end.css" rel="stylesheet">
 
 </body>
 
