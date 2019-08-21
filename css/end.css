@@ -1,0 +1,15 @@
+.goog-te-gadget-simple {
+	background-color: #000;
+	border: none;
+}
+
+.goog-te-gadget-icon {
+	width: 0;
+	height: 0;
+}
+
+.goog-te-gadget {
+	font-family: inherit;
+	font-size: inherit;
+	color: #fff;
+}
