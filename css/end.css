@@ -27,3 +27,7 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
 .cse .gsc-search-button-v2, .gsc-search-button-v2 {
     padding: 8px 27px;
 }
+
+.jumbotron {
+	background-color: none;
+}
