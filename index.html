@@ -74,6 +74,9 @@
           <li class="nav-item">
             <a class="nav-link" href="javascript: document.body.scrollIntoView(false);">Contact</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
           <div id="translator">
               <div id="google_translate_element" class="mt-2 mt-md-0"></div>
               <script type="text/javascript">
@@ -369,6 +372,25 @@
               <li>
                 <a class="nav-item-foot" href="csca.html">Case Studies, Certifications, & Awards</a>
               </li>
+              <li>
+                <a class="nav-item-foot" href="#">News</a>
+              </li>
+              <h6 class="service-heading"><br>Search</h6>
+              <!-- Search form -->
+              <div id="search-contain">
+                <script>
+                  (function() {
+                    var cx = '009178337144587862407:myfbaaehpgo';
+                    var gcse = document.createElement('script');
+                    gcse.type = 'text/javascript';
+                    gcse.async = true;
+                    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(gcse, s);
+                  })();
+                </script>
+                <gcse:search></gcse:search>
+              </div>
             </ul>
           </span>
         </div>
@@ -388,7 +410,7 @@
           </p>
         </div>
         <div class="col-md-3">
-          <h6 class="service-heading">Contact</h6>
+          <h6 class="service-heading">Find Us</h6>
           <p class="text-muted pre-footer contact-text">Jetpatcher™<br>
           Parkfield Road Industrial Estate<br>
           Parkfield Road<br>
@@ -402,22 +424,14 @@
           Info@jetpatcher.com</p>
         </div>
         <div class="col-md-3">
-          <h6 class="service-heading">Search</h6>
-          <!-- Search form -->
-          <div id="search-contain">
-            <script>
-              (function() {
-                var cx = '009178337144587862407:myfbaaehpgo';
-                var gcse = document.createElement('script');
-                gcse.type = 'text/javascript';
-                gcse.async = true;
-                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(gcse, s);
-              })();
-            </script>
-            <gcse:search></gcse:search>
-          </div>
+            <form id="footer-contact" action="https://formspree.io/email@email.com" method="POST">
+                <h6 class="service-heading">Contact Us</h6>
+                <input class="footer-input" type="text" name="name" placeholder="Name">
+                <input class="footer-input" type="email" name="_replyto" placeholder="Email">
+                <textarea class="footer-input" type="message" name="message" placeholder="Message"></textarea>
+                <br>
+                <input type="submit" value="Send" id="contact-btn">
+            </form>
         </div>
       </div>
     </div>

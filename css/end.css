@@ -20,3 +20,10 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
+	border-radius: 2px;
+}
+
+.cse .gsc-search-button-v2, .gsc-search-button-v2 {
+    padding: 8px 27px;
+}
