@@ -191,7 +191,27 @@ ol.simple-list > li:before {
 	vertical-align: super;
   font-size: xx-large;
 }
+.dark-link {
+  color: #212529;
+  margin-top: -50px;
+}
+#portfolio {
+  padding-top: 65px;
+  padding-bottom: 120px;
+}
 
+#counter {
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+#counters {
+  padding-top: 120px;
+}
+
+.img-fluid {
+  border-radius: 3px;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -202,7 +222,7 @@ ol.simple-list > li:before {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 11rem;
+  bottom: 20.75rem;
   z-index: 10;
 }
 
@@ -211,14 +231,18 @@ ol.simple-list > li:before {
   height: 42rem;
   background-color: #777;
 }
-.carousel-item > img, .carousel-item > video {
+#video-background {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 42rem;
-  filter: brightness(70%);
+  height: 35rem;
+  filter: brightness(65%);
   object-fit: cover;
+}
+
+.jumbotron {
+  height: 35rem;
 }
 
 

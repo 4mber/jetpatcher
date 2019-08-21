@@ -102,7 +102,22 @@
   <!-- Header -->
   <header class="masthead">
     <div class="container" id="top">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="jumbotron">
+        <div class="container">
+          <video class="" alt="" id="video-background" preload="" muted="" autoplay="" loop="">
+            <source src="img/carousel-vid.mp4" type="video/mp4">
+          </video>
+          <div class="container">
+            <div class="carousel-caption text-left">
+              <h1>Jetpatcher</h1>
+              <p class="tag">provides a cost-effective way of <strong>maintaining</strong> the wearing surfaces of asphalt roads, car parks, footpaths, and industrial areas, <strong>including repairs</strong> of potholes, crack seals, etc.</p>
+              <p><a class="btn btn-lg btn-primary text-uppercase" href="#" role="button">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!--       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -161,37 +176,26 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div>
+      </div> -->
     </div>
   </header>
 
   <!-- About -->
-  <section id="about">
+  <section id="portfolio">
     <div class="container contain-pad">
-      <div class="row">
-        <div class="col-lg-12 text-center">
+      <div class="row" id="cta">
+<!--         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">The Jetpatcher™</h2>
-          <h4 class="text-muted description">provides a cost-effective way of maintaining the wearing surfaces of asphalt roads, car parks, footpaths, industrial areas including repairs of potholes, crack seals, etc...</h4>
-        </div>
-        <div class="col-lg-12 text-center" id="counter">
-          <div>
-            <div class="counter">
-              <div class="counter--value" data-count="28000">0</div>
-              <div class="counter--text text-muted description"><h5><span style="font-weight: 300;">Miles of rural road repaired</span><br>by Our Unique Road Repair System</h5></div> 
-            </div>
-          </div>   
-        </div>
-      </div>
-    </div>
-  </section>
+          <h4 class="text-muted description"><strong>We provide</strong> a cost-effective way of maintaining the wearing surfaces of asphalt roads, car parks, footpaths, and industrial areas, including repairs of potholes, crack seals, etc.</h4>
+        </div> -->
 
-  <!-- Process Grid -->
-  <section class="bg-light" id="portfolio">
-    <div class="container contain-pad">
-      <div class="row">
-      </div>
-      <div class="row">
         <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="process.html" class="dark-link">
+            <div class="portfolio-caption">
+              <h3 class="">Process</h3>
+              <p class="text-muted">Most complete in <15 minutes.</p>
+            </div>
+          </a>
           <a class="portfolio-link" href="process.html">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -200,12 +204,14 @@
             </div>
             <img class="img-fluid" src="img/portfolio-process.jpg" alt="">
           </a>
-          <div class="portfolio-caption">
-            <h4>Process</h4>
-            <p class="text-muted">Experience minimum traffic delays with most repairs complete in under 15 minutes.</p>
-          </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="uk.html" class="dark-link">
+            <div class="portfolio-caption">
+              <h3>UK</h3>
+              <p class="text-muted">Lease and hire in the UK.</p>
+            </div>
+          </a>
           <a class="portfolio-link" href="uk.html">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -214,12 +220,14 @@
             </div>
             <img class="img-fluid" src="img/portfolio-uk.jpg" alt="">
           </a>
-          <div class="portfolio-caption">
-            <h4>UK</h4>
-            <p class="text-muted">Lease and hire in the UK.<br><br></p>
-          </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="export.html" class="dark-link">
+            <div class="portfolio-caption">
+              <h3>Export</h3>
+              <p class="text-muted">International Coverage.</p>
+            </div>
+          </a>
           <a class="portfolio-link" href="export.html">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -228,14 +236,30 @@
             </div>
             <img class="img-fluid" src="img/portfolio-export.jpg" alt="">
           </a>
-          <div class="portfolio-caption">
-            <h4>Export</h4>
-            <p class="text-muted">International Coverage.<br><br></p>
-          </div>
         </div>
       </div>
     </div>
   </section>
+
+    <div class="col-lg-12 text-center bg-light" id="counter">
+      <div>
+        <div class="counter">
+          <div class="counter--value" data-count="28000">0</div>
+          <div class="counter--text text-muted description"><h5><span style="font-weight: 300;">Miles of rural road repaired</span><br>by Our Unique Road Repair System</h5></div> 
+        </div>
+      </div>   
+    </div>
+
+  <!-- Process Grid -->
+<!--   <section class="bg-light" id="portfolio">
+    <div class="container contain-pad">
+      <div class="row">
+      </div>
+      <div class="row">
+        
+      </div>
+    </div>
+  </section> -->
 
   <!-- Video -->
   <section id="video">
@@ -252,7 +276,7 @@
   </section>
 
   <!-- Services -->
-  <section id="services" class="bg-light">
+  <!-- <section id="services" class="bg-light">
     <div class="container contain-pad">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -298,10 +322,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Counters -->
-  <section id="counters">
+  <section id="counters" class="bg-light">
     <div class="container contain-pad"><br>
       <div class="row">
         <div class="col-lg-3 text-center" id="counter2">
