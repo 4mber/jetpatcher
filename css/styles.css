@@ -15,6 +15,37 @@
     background-position: center;
     background-image: url("../img/stock-truck.jpg");
 }
+#process-mast {
+  height: 28rem;
+  padding-top: 15rem;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/carousel-uk.png");
+}
+#uk-mast {
+  height: 28rem;
+  padding-top: 15rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #232323;
+  background-image: url("../img/carousel-uk.png");
+}
+#export-mast {
+  height: 28rem;
+  padding-top: 15rem;
+  background-image: url("../img/carousel-uk.png"), url("../img/carousel-uk-blur.png");
+  background-size: contain, cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#range-mast {
+  height: 44rem;
+  padding-top: 23rem;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/carousel-uk.png");
+}
 .about-img, .process-img {
     width: 100%;
 }
