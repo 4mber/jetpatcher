@@ -213,6 +213,7 @@ ol.simple-list > li:before {
 
 #video {
   padding-top: 30px;
+  padding-bottom: 15px;
 }
 
 /* Counter Styles */
@@ -257,7 +258,8 @@ ol.simple-list > li:before {
 }
 
 #counters {
-  padding-top: 120px;
+  padding-top: 35px;
+  padding-bottom: 15px;
 }
 
 .img-fluid {
