@@ -241,7 +241,7 @@ header.masthead .intro-text .intro-heading {
 #portfolio .portfolio-item .portfolio-link, #export-portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
-  max-width: 220px;
+  max-width: 500px;
   margin: 0 auto;
   cursor: pointer;
 }
@@ -282,11 +282,34 @@ header.masthead .intro-text .intro-heading {
 }
 
 #portfolio .portfolio-item .portfolio-caption, #export-portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
-  padding: 25px;
-  text-align: center;
+  margin-bottom: -100px;
+  padding: 30px;
   background-color: none;
+  position: absolute;
+  z-index: 1000;
+}
+
+#portfolio .portfolio-item .portfolio-caption, #export-portfolio .portfolio-caption {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: -100px;
+  background-color: none;
+  position: relative;
+  z-index: 1000;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4, #export-portfolio .portfolio-item .portfolio-caption h4 {

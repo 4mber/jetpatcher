@@ -9,6 +9,11 @@ sup.head-sup {
   top: -1em;
   font-size: x-small;
 }
+sup.meter-sup {
+  font-size: x-small;
+  font-weight: 700;
+  top: -0.25em;
+}
 .contain-pad {
 	padding: 0 100px;
 }
@@ -20,22 +25,22 @@ sup.head-sup {
     padding-bottom: 50px;
 }
 #about-mast {
-    height: 28rem;
-    padding-top: 15rem;
+    height: 35rem;
+    padding-top: 18.5rem;
     background-size: cover;
     background-position: center;
     background-image: url("../img/stock-truck.jpg");
 }
 #process-mast {
-  height: 28rem;
-  padding-top: 15rem;
+  height: 35rem;
+  padding-top: 18.5rem;
   background-size: cover;
   background-position: center;
   background-image: url("../img/carousel-uk.png");
 }
 #uk-mast {
-  height: 28rem;
-  padding-top: 15rem;
+  height: 35rem;
+  padding-top: 18.5rem;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -43,16 +48,16 @@ sup.head-sup {
   background-image: url("../img/carousel-uk.png");
 }
 #export-mast {
-  height: 28rem;
-  padding-top: 15rem;
+  height: 35rem;
+  padding-top: 18.5rem;
   background-image: url("../img/carousel-uk.png"), url("../img/carousel-uk-blur.png");
   background-size: contain, cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 #range-mast {
-  height: 44rem;
-  padding-top: 23rem;
+  height: 35rem;
+  padding-top: 18.5rem;
   background-size: cover;
   background-position: center;
   background-image: url("../img/carousel-uk.png");
@@ -206,6 +211,9 @@ ol.simple-list > li:before {
   margin-bottom: 50px;
 }
 
+#video {
+  padding-top: 30px;
+}
 
 /* Counter Styles */
 /* -=-=-=-=-=-=-=-=-=-=-=- */
@@ -238,13 +246,14 @@ ol.simple-list > li:before {
   margin-top: -50px;
 }
 #portfolio {
-  padding-top: 65px;
-  padding-bottom: 120px;
+  padding-top: 30px;
+  padding-bottom: 0;
+  background-color: #000;
 }
 
 #counter {
-  padding-top: 120px;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 
 #counters {
@@ -278,12 +287,13 @@ ol.simple-list > li:before {
   left: 0;
   width: 100%;
   height: 35rem;
-  filter: brightness(65%);
+/*  filter: brightness(65%);*/
   object-fit: cover;
 }
 
 .jumbotron {
   height: 35rem;
+  margin-bottom: 0;
 }
 
 
