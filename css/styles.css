@@ -14,6 +14,11 @@ sup.meter-sup {
   font-weight: 700;
   top: -0.25em;
 }
+#story {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
 .contain-pad {
 	padding: 0 100px;
 }
@@ -21,15 +26,22 @@ sup.meter-sup {
 	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 .description {
-    font-weight: 500;
-    padding-bottom: 50px;
+  font-weight: 500;
+  padding-bottom: 50px;
+  color: #b7b7b7 !important;
 }
 #about-mast {
-    height: 35rem;
-    padding-top: 18.5rem;
-    background-size: cover;
-    background-position: center;
-    background-image: url("../img/stock-truck.jpg");
+  height: 35rem;
+  padding-top: 18.5rem;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/about-head.png");
+}
+#about {
+  background-color: #000;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 #process-mast {
   height: 35rem;
