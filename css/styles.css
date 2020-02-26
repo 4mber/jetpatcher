@@ -1,3 +1,14 @@
+sup {
+  font-size: 8px;
+  vertical-align: super;
+}
+sup.copy-sup {
+  font-size: 6px;
+}
+sup.head-sup {
+  top: -1em;
+  font-size: x-small;
+}
 .contain-pad {
 	padding: 0 100px;
 }
