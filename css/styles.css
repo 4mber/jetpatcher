@@ -78,7 +78,7 @@ sup.meter-sup {
     width: 100%;
 }
 .testimonial {
-  background-color: #ececec;
+  background-color: #fff;
   padding: 30px;
   text-align: left;
 }
@@ -146,26 +146,42 @@ input {
   border-radius: 2px;
 }
 
+.numberCircle {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+
+    width: 42px;
+    height: 42px;
+
+    
+    background: #000;
+    color: #fff;
+    text-align: center;
+    
+    font-size: 28px;
+    display: inline-block;
+}
+
+h3.process {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: baseline;
+  margin-left: 10px;
+}
+
 
 /* Process Styles */
 /* -=-=-=-=-=-=-=-=-=-=-=- */
 
-ol.simple-list {
-    list-style-type: none;
-    list-style-type: decimal !ie; /*IE 7- hack*/
-     
-    margin: 0;
-    margin-left: 3em;
-    padding: 0;
-     
-    counter-reset: li-counter;
-}
-ol.simple-list > li{
+
+ul.simple-list > li{
     position: relative;
-    padding-left: 0.5em;
-    border-left: 2px solid #CCCCCC;
+    border: 4px solid #000000;
+    border-radius: 16px;
+    margin-top: 6px;
+    margin-bottom: 150px;
 }
-ol.simple-list > li:before {
+ul.simple-list > li:before {
     position: absolute;
     top: 0;
     left: -1em;
@@ -176,9 +192,6 @@ ol.simple-list > li:before {
     font-weight: bold;
     text-align: right;
     color: #464646;
- 
-    content: counter(li-counter);
-    counter-increment: li-counter;
 }
 .process-side-by {
     display: inline-block;
@@ -187,10 +200,9 @@ ol.simple-list > li:before {
 .process-img {
     -ms-flex: 0 0 21%;
     flex: 0 0 21%;
-    max-width: 21%;
+    max-width: 190px;
     padding-left: 20px;
     padding-bottom: 150px;
-    height: 300px;
 }
 #process {
   padding-bottom: 40px;
@@ -201,7 +213,11 @@ ol.simple-list > li:before {
 #export {
   padding-bottom: 0;
 }
-#process-content, #export-content {
+#process-content {
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+#export-content {
   padding-top: 50px;
   padding-bottom: 70px;
 }
@@ -414,6 +430,10 @@ ol.simple-list > li:before {
       -ms-flex: 100%;
       flex: 100%;
       max-width: 100%;
+  }
+  .process-img {
+    max-width: 70%;
+    padding-left: 0;
   }
 }
 @media (max-width: 1100px) {
