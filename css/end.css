@@ -27,3 +27,11 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
 .cse .gsc-search-button-v2, .gsc-search-button-v2 {
     padding: 8px 27px;
 }
+
+
+@media (max-width: 768px) {}
+	.box {
+	    padding: 0;
+	    width: 100%;
+	}
+}

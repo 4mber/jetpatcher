@@ -20,6 +20,9 @@ sup.meter-sup {
 .no-pad {
   padding: 0;
 }
+.first {
+  margin-right: 2em;
+}
 #story {
   padding-top: 20px;
   padding-bottom: 10px;
@@ -114,6 +117,7 @@ iframe {
 }
 #main-2500 {
   width: 48%;
+  margin-left: 26%;
 }
 #table-2500 {
   width: 36%;
@@ -563,6 +567,14 @@ ul.simple-list > li:before {
     padding: 180px 30px 30px 30px;
   }
 }
+
+@media (max-width: 1130px) {
+  .first {
+    margin-right: 0;
+  }
+}
+
+
 
 @media (min-width: 1360px) {
   .carousel-caption {
