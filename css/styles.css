@@ -26,6 +26,9 @@ sup.meter-sup {
 .black {
   color: #000;
 }
+.side-image {
+  max-width: 660px;
+}
 #story {
   padding-top: 20px;
   padding-bottom: 10px;
