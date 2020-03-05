@@ -23,6 +23,9 @@ sup.meter-sup {
 .first {
   margin-right: 2em;
 }
+.black {
+  color: #000;
+}
 #story {
   padding-top: 20px;
   padding-bottom: 10px;
@@ -343,7 +346,9 @@ ul.simple-list > li:before {
   left: 0;
   width: 100%;
   height: 35rem;
-/*  filter: brightness(65%);*/
+  transform: rotateY(180deg);
+  -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+  -moz-transform:rotateY(180deg); /* Firefox */
   object-fit: cover;
 }
 
