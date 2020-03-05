@@ -46,6 +46,14 @@ sup.meter-sup {
   background-position: center;
   background-image: url("../img/about-head.png");
 }
+
+#faq-mast {
+  height: 35rem;
+  padding-top: 18.5rem;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/faq-head.png");
+}
 #csca-mast {
   height: 35rem;
   padding-top: 18.5rem;
