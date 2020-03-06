@@ -58,7 +58,7 @@ sup.meter-sup {
   padding-top: 18.5rem;
   background-size: cover;
   background-position: center;
-  background-image: url("../img/faq-head.png");
+  background-image: url("../img/faq-head-new.jpg");
 }
 #csca-mast {
   height: 35rem;
@@ -93,9 +93,8 @@ sup.meter-sup {
 #export-mast {
   height: 35rem;
   padding-top: 18.5rem;
-  background-image: url("../img/carousel-uk.png"), url("../img/carousel-uk-blur.png");
-  background-size: contain, cover;
-  background-repeat: no-repeat;
+  background-image: url("../img/export-banner.png");
+  background-size: cover;
   background-position: center;
 }
 #range-mast {
@@ -270,6 +269,26 @@ ul.simple-list > li:before {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+#export-img-1 {
+  background-image: url(../img/export-img-1.png);
+  height: 600px;
+  background-size: cover;
+  background-position: bottom;
+  max-width: 55%;
+  margin-right: 40px;
+  border-radius: 6px;
+}
+#export-img-2 {
+  background-image: url(../img/export-img-2.png);
+  height: 700px;
+  background-size: cover;
+  background-position: bottom;
+  max-width: 100%;
+  margin-right: 40px;
+  border-radius: 6px;
+}
+
+
 
 #video {
   padding-top: 30px;
@@ -577,6 +596,9 @@ ul.simple-list > li:before {
 @media (max-width: 1025px) {
   .jumbotron {
     padding: 4rem 2rem;
+  }
+    #export-img-1 {
+    max-width: 100%;
   }
 }
 
