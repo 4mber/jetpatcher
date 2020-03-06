@@ -87,8 +87,8 @@ sup.meter-sup {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #232323;
-  background-image: url("../img/carousel-uk-dark.png");
+  background-color: #000;
+  background-image: url("../img/uk-banner.png");
 }
 #export-mast {
   height: 35rem;
@@ -255,11 +255,23 @@ ul.simple-list > li:before {
 #vid-description {
   padding-left: 12px;
 }
-#uk-img, #uk-img2 {
-  background-image: url("../img/stock-roadwork.png");
-  height: 350px;
+#uk-img {
+  background-image: url("../img/uk-img-1.png");
+  height: 600px;
   background-size: cover;
   background-position: bottom;
+  max-width: 55%;
+  margin-right: 40px;
+  border-radius: 6px;
+}
+#uk-img2 {
+  background-image: url("../img/uk-img-2.png");
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  margin-right: 40px;
+  border-radius: 6px;
 }
 #uk-img {
   width: 750px;
