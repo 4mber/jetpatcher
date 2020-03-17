@@ -49,7 +49,7 @@ sup.meter-sup {
   height: 35rem;
   padding-top: 18.5rem;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-image: url("../img/about-head.png");
 }
 
@@ -58,7 +58,7 @@ sup.meter-sup {
   padding-top: 18.5rem;
   background-size: cover;
   background-position: center;
-  background-image: url("../img/faq-head-new.jpg");
+  background-image: url("../img/faq-head.png");
 }
 #csca-mast {
   height: 35rem;
@@ -67,7 +67,6 @@ sup.meter-sup {
   background-position: center;
   background-image: url("../img/csca-banner.png");
 }
-
 #about {
   background-color: #000;
   color: #fff;
@@ -645,3 +644,502 @@ ul.simple-list > li:before {
     padding: 220px 100px 0 100px;
   }
 }
+
+
+
+/*Header Image Resizing*/
+
+
+@media (min-width: 2200px) {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 43rem;
+    padding-top: 22.5rem;
+  }
+  #uk-mast {
+    height: 43rem;
+    padding-top: 22rem;
+  }
+  #faq-mast {
+    background-position: 0 -210px;
+  }
+  #csca-mast {
+    height: 54rem;
+    padding-top: 27.5rem;
+  }
+}
+@media (max-width: 2445px) {
+  #faq-mast {
+    background-position: 0 -190px;
+  }
+}
+@media (max-width: 2375px) {
+  #faq-mast {
+    background-position: 0 -178px;
+  }
+}
+@media (max-width: 2345px) {
+  #faq-mast {
+    background-position: 0 -170px;
+  }
+}
+@media (max-width: 2320px) {
+  #faq-mast {
+    background-position: 0 -164px;
+  }
+}
+@media (max-width: 2300px) {
+  #faq-mast {
+    background-position: 0 -157px;
+  }
+}
+@media (max-width: 2285px) {
+  #faq-mast {
+    background-position: bottom;
+  }
+}
+@media (max-width: 2200px) {
+  #range-mast {
+    height: 43rem;
+    padding-top: 22.5rem;
+  }
+  #faq-mast {
+    height: 42rem;
+    padding-top: 21rem;
+  }
+  #csca-mast {
+    height: 43rem;
+    padding-top: 22.5rem;
+  }
+}
+@media (max-width: 1970px) {
+  #faq-mast {
+    height: 40rem;
+  }
+}
+@media (max-width: 1900px) {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 38rem;
+    padding-top: 20rem;
+  }
+  #uk-mast {
+    height: 38rem;
+    padding-top: 18.5rem;
+  }
+  #faq-mast {
+    padding-top: 19rem;
+  }
+  #csca-mast {
+    height: 40rem;
+  }
+}
+@media (max-width: 1710px) {
+  #faq-mast {
+    height: 37rem;
+  }
+}
+@media (max-width: 1655px) {
+  #faq-mast {
+    height: 35rem;
+  }
+}
+@media (max-width: 1600px) {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 34rem;
+    padding-top: 18rem;
+  }
+  #uk-mast {
+    height: 34rem;
+    padding-top: 17rem;
+  }
+}
+@media (max-width: 1530px) {
+  #faq-mast {
+    height: 33rem;
+  }
+}
+@media (max-width: 1470px) {
+  #faq-mast {
+    height: 31rem;
+  }
+}
+@media (max-width: 1440px) {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 33rem;
+    padding-top: 18rem;
+  }
+  #faq-mast {
+    height: 31rem;
+  }
+  #uk-mast {
+    height: 33rem;
+    padding-top: 16rem;
+  }
+}
+@media (max-width: 1380px) {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 31rem;
+    padding-top: 17rem;
+  }
+  #faq-mast {
+    height: 29rem;
+    padding-top: 16rem;
+  }
+  #uk-mast {
+    height: 31rem;
+    padding-top: 16rem;
+  }
+}
+@media (max-width: 1300px) {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 29rem;
+    padding-top: 16rem;
+  }
+  #uk-mast {
+    height: 29rem;
+    padding-top: 14rem;
+  }
+}
+@media (max-width: 1245px) {
+  #csca-mast {
+    padding-top: 14rem;
+  }
+}
+
+@media (max-width: 1215px) {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 27rem;
+    padding-top: 15rem;
+  }
+  #uk-mast {
+    height: 27rem;
+    padding-top: 13rem;
+  }
+  #range-mast {
+    background-position: 0 4px;
+  }
+  #csca-mast {
+    padding-top: 13rem;
+  }
+}
+@media (max-width: 1130px) {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 25rem;
+    padding-top: 14rem;
+  }
+  #uk-mast {
+    height: 25rem;
+    padding-top: 12rem;
+  }
+  #csca-mast {
+    padding-top: 12rem;
+  }
+}
+@media (max-width: 1050px) {
+  #about-mast, #process-mast, #export-mast, #csca-mast {
+    height: 23rem;
+    padding-top: 13rem;
+  }
+  #uk-mast {
+    height: 23rem;
+    padding-top: 12rem;
+  }
+  #range-mast {
+    height: 23.3rem;
+    padding-top: 13rem;
+    background-position: 0 16px;
+  }
+  #csca-mast {
+    padding-top: 11rem;
+  }
+}
+@media (max-width: 992px) {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    padding-top: 12rem;
+  }
+  #uk-mast {
+    padding-top: 10rem;
+  }
+  #range-mast {
+    background-position: top;
+  }
+  #faq-mast {
+    height: 21rem;
+    padding-top: 9rem;
+  }
+  #csca-mast {
+    padding-top: 10rem;
+  }
+}
+@media (max-width: 960px) {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 21rem;
+    padding-top: 11rem;
+  }
+  #faq-mast {
+    padding-top: 9rem;
+  }
+  #uk-mast {
+    height: 21rem;
+    padding-top: 10rem;
+  }
+  #csca-mast {
+    padding-top: 9rem;
+  }
+}
+@media (max-width: 880px) {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 19.5rem;
+    padding-top: 10rem;
+  }
+  #uk-mast {
+    height: 19.5rem;
+    padding-top: 9rem;
+  }
+  #faq-mast {
+    padding-top: 8rem;
+  }
+  #csca-mast {
+    padding-top: 6rem;
+  }
+}
+@media (max-width: 818px) {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 18.5rem;
+  }
+  #uk-mast {
+    height: 18.5rem;
+  }
+}
+@media (max-width: 788px) {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 18rem;
+    padding-top: 9.5rem;
+  }
+  #uk-mast {
+    height: 18rem;
+    padding-top: 8rem;
+  }
+  #faq-mast {
+    padding-top: 7.5rem;
+  }
+  #csca-mast {
+    padding-top: 5.5rem;
+  }
+}
+@media (max-width: 770px) {
+  #csca-mast {
+    padding-top: 7rem;
+  }
+}
+@media (max-width: 750px) {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 17rem;
+    padding-top: 9rem;
+  }
+  #uk-mast {
+    height: 17rem;
+    padding-top: 8rem;
+  }
+  #faq-mast {
+    padding-top: 7rem;
+  }
+  #csca-mast {
+    padding-top: 7rem;
+  }
+}
+@media (max-width: 715px) {
+  #csca-mast {
+    padding-top: 5rem;
+  }
+}
+
+@media (max-width: 705px) {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 15rem;
+    padding-top: 8rem;
+  }
+  #uk-mast {
+    height: 15rem;
+    padding-top: 7rem;
+  }
+  #faq-mast {
+    height: 17rem;
+    padding-top: 7rem;
+  }
+  #csca-mast {
+    padding-top: 4rem;
+  }
+}
+@media (max-width: 625px) {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 14rem;
+    padding-top: 7.5rem;
+  }
+  #uk-mast {
+    height: 14rem;
+    padding-top: 6.5rem;
+  }
+  #main-2500 {
+    margin-left: 0;
+  }
+  #faq-mast {
+    height: 16.5rem;
+  }
+  #csca-mast {
+    padding-top: 6rem;
+  }
+  h1 {
+    font-size: 2.6rem;
+  }
+}
+@media (max-width: 590px) {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 13rem;
+    padding-top: 6.5rem;
+  }
+  #uk-mast {
+    height: 13rem;
+    padding-top: 6rem;
+  }
+  #faq-mast {
+    height: 15rem;
+    padding-top: 5.5rem;
+  }
+  #csca-mast {
+    padding-top: 3.5rem;
+  }
+}
+@media (max-width: 545px) {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 12rem;
+    padding-top: 6rem;
+  }
+  #uk-mast {
+    height: 12rem;
+    padding-top: 5.5rem;
+  }
+  h1, h2 {
+    font-size: 2.6rem;
+  }
+  #faq-mast {
+    height: 13rem;
+  }
+  #csca-mast {
+    padding-top: 3.4rem;
+  }
+}
+@media (max-width: 415px) {
+  #about-mast {
+    background-image: url(../img/carousel-uk.png);
+    height: 14.4rem;
+    background-position: -10px 24px;
+    padding-top: 7.5rem;
+  }
+  #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 14.4rem;
+    background-position: center;
+    padding-top: 7.5rem;
+  }
+  #uk-mast {
+    height: 14.4rem;
+    background-position: center;
+    padding-top: 6rem;
+  }
+  h1, h2 {
+    font-size: 2rem;
+  }
+  #faq-mast {
+    background-position: right;
+    padding-top: 6.5rem;
+  }
+  #csca-mast {
+    padding-top: 5.5rem;
+  }
+}
+@media (max-width: 412px) {
+  #about-mast {
+    background-image: url(../img/carousel-uk.png);
+    height: 13.4rem;
+    background-position: 0 20px;
+    padding-top: 7rem;
+  }
+  #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 13.4rem;
+    background-position: center;
+    padding-top: 7rem;
+  }
+  #uk-mast {
+    height: 13.4rem;
+    background-position: center;
+    padding-top: 6rem;
+  }
+  #faq-mast {
+    background-position: right;
+    height: 12rem;
+    padding-top: 5.5rem;
+  }
+  #csca-mast {
+    padding-top: 4.5rem;
+  }
+}
+@media (max-width: 376px) {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 13rem;
+  }
+  #uk-mast {
+    height: 13rem;
+    padding-top: 5.5rem;
+  }
+  #faq-mast {
+    background-position: right;
+    height: 11.6rem;
+  }
+}
+@media (max-width: 361px) {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 12rem;
+    padding-top: 6.5rem;
+  }
+  #uk-mast {
+    height: 12rem;
+    padding-top: 5.5rem;
+  }
+  #faq-mast {
+    padding-top: 5.5rem;
+  }
+  #csca-mast {
+    padding-top: 4.5rem;
+  }
+}
+@media (max-width: 320px) {
+  #about-mast {
+    height: 10rem;
+    background-position: -35px 15px;
+    padding-top: 5.5rem;
+  }
+  #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+    height: 10rem;
+    background-position: center;
+    padding-top: 5.5rem;
+  }
+  #uk-mast {
+    height: 10rem;
+    background-position: center;
+    padding-top: 4.5rem;
+  }
+  h1, h2 {
+    font-size: 1.8rem;
+  }
+  #faq-mast {
+    background-position: right;
+    height: 12rem;
+    padding-top: 4.5rem;
+  }
+  #csca-mast {
+    padding-top: 3.5rem;
+  }
+}
+
+
+
+
