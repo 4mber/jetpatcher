@@ -1032,7 +1032,7 @@ ul.simple-list > li:before {
   #about-mast {
     background-image: url(../img/carousel-uk.png);
     height: 14.4rem;
-    background-position: -10px 24px;
+    background-position: 0 16px;
     padding-top: 7.5rem;
   }
   #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
@@ -1060,7 +1060,6 @@ ul.simple-list > li:before {
   #about-mast {
     background-image: url(../img/carousel-uk.png);
     height: 13.4rem;
-    background-position: 0 20px;
     padding-top: 7rem;
   }
   #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
@@ -1114,7 +1113,6 @@ ul.simple-list > li:before {
 @media (max-width: 320px) {
   #about-mast {
     height: 10rem;
-    background-position: -35px 15px;
     padding-top: 5.5rem;
   }
   #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
