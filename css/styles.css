@@ -763,18 +763,24 @@ ul.simple-list > li:before {
   }
 }
 @media (max-width: 1440px) {
-  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
+  #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast {
     height: 33rem;
     padding-top: 18rem;
   }
   #faq-mast {
     height: 31rem;
   }
+  #csca-mast {
+  	height: 26.5rem;
+    padding-top: 14rem;
+    background-position: -30px 33px;
+  }
   #uk-mast {
     height: 33rem;
     padding-top: 16rem;
   }
 }
+
 @media (max-width: 1380px) {
   #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
     height: 31rem;
