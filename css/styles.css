@@ -14,6 +14,9 @@ sup.meter-sup {
   font-weight: 700;
   top: -0.25em;
 }
+.uk-pad {
+  padding-left: 50px;
+}
 .export-img {
   max-width: 20%;
 }
@@ -441,6 +444,10 @@ ul.simple-list > li:before {
   background-color: #cccccc !important;
 }
 
+.recycle-2 {
+  display: none;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -479,6 +486,35 @@ ul.simple-list > li:before {
   }
   .cert-link {
     font-size: 1rem;
+  }
+  .recycle {
+    display: none;
+  }
+  .recycle-2 {
+    display: block;
+  }
+  #export-img-1, #export-img-2 {
+    margin-right: 0;
+  }
+  .mobile-no-pad {
+    padding: 0;
+  }
+  .testimonial {
+    padding: 0;
+  }
+  .cert {
+    width: 80%;
+    margin: auto;
+  }
+  .mobile-erase {
+    display: none;
+  }
+  #portfolio .portfolio-item .portfolio-caption, .portfolio-caption {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #portfolio .portfolio-item, #export-portfolio .portfolio-item {
+    margin: 0 0 120px;
   }
 }
 
@@ -522,10 +558,12 @@ ul.simple-list > li:before {
     padding-top: 25px;
   }
   .process-img {
-    max-width: 90%;
+    max-width: 100%;
+    margin-bottom: 50px;
   }
   #uk-img {
-    width: 100%;
+    max-width: 100%;
+    margin-right: 0;
   }
   #main-1000, #table-1000, #main-2500, #table-2500, #other-2500, #other2-2500, #spreader, #spread-vid {
     width: 100%;
@@ -576,10 +614,10 @@ ul.simple-list > li:before {
     font-size: 28px;
   }
   #video-background {
-    height: 30rem;
+    height: 32rem;
   }
   .jumbotron {
-    height: 30rem;
+    height: 32rem;
   }
   .carousel-caption {
     padding-top: 45px;
@@ -917,6 +955,12 @@ ul.simple-list > li:before {
   }
 }
 @media (max-width: 788px) {
+  .uk-pad {
+    padding-left: 0;
+  }
+  ul.simple-list > li {
+    margin-bottom: 50px;
+  }
   #about-mast, #process-mast, #range-mast, #faq-mast, #export-mast, #csca-mast {
     height: 18rem;
     padding-top: 9.5rem;

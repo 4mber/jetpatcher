@@ -33,8 +33,17 @@ form.gsc-search-box {
 }
 
 @media (max-width: 768px) {}
+	ul {
+		padding-left: 0;
+	}
 	.box {
 	    padding: 0;
 	    width: 100%;
+	}
+	form.gsc-search-box {
+    	width: 100%;
+	}
+	.cse .gsc-search-button-v2, .gsc-search-button-v2 {
+	    padding: 14px 27px;
 	}
 }
